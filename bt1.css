@@ -1,0 +1,177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.readme-wrapper {
+    background-color: #ffd900;
+    padding-left: 131px;
+    padding-top: 79px;
+}
+.readme-title {
+    width: 829px;
+    height: 239px;
+
+    color: black;
+    font-family: 'New York Extra Large';
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-top: 14px;
+}
+.readme-h2{
+    color: black;
+    font: 44px "New York Extra Large";
+    size: 44px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-style: bold;
+}
+#note-about-typefaces {
+    margin-top: 90px;
+}
+.readme-subtitle{
+    padding-left: 9px;
+    width: 322px;
+    height: 24px;
+
+    font-weight: 400;
+    color: black;
+    font-family: "SF Mono", monospace;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-style: bold;
+}
+.readme{
+    margin: 0;
+    padding: 0;
+}
+
+.readme-content {
+    max-width: 1523px;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 131px;
+
+    color: black;
+    font-family: "SF Mono", monospace;
+    size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-style: normal;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.note{
+    font: 20px 'SF Pro Text';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    color: #000000;
+    line-height: normal;
+
+    border-left-width: 6px;
+    border-left-style: solid;
+    margin-top: 26px;
+    padding-left: 29px;
+    padding-right: 40%;
+}
+.mini-text {
+    /* Just for reference or if you’re interested, I list here the typefaces I’m using in on the live site at https://www.nordicrose.net. If you’d like to use them in your own project, I added links for you as well to make it easier to purchase the required license. */
+
+    width: 791px;
+    height: 72px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+
+}
+.font-1 img{
+    /* GTF Chapter */
+    
+    width: 333.88px;
+    height: 50.22px;
+    margin-top: 58.8px;
+
+    color: #000000;
+
+    
+}
+.font-2 img{
+    /* Mackay Bold */
+
+    width: 382.35px;
+    height: 48.06px;
+    margin-top: 52.2px;
+
+    color: #000000;
+
+}
+.font-3 img{
+    /* Harriet Text */
+    width: 302.91px;
+    height: 40.9px;
+    margin-top: 60.87px;
+
+    color: #000000;
+
+}
+.font-4 img{
+    /* Basis Grotesque Pro */
+
+    width: 493.82px;
+    height: 49.57px;
+    margin-top: 56.44px;
+
+    color: #000000;
+
+}
+.font-5 img{
+    /* Nokia Cellphone FC */
+
+    color: absolute;
+    width: 681.75px;
+    height: 47.25px;
+    margin-top: 53.75px;
+
+    color: #000000;
+
+}
+.note-1{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+
+}
+#GTF_note{
+    margin-top: 11.98px;
+}
+#Mackay_note{
+    margin-top: 14.74px;
+}
+#Harriet_note{
+    margin-top: 30.24px;
+}
+#Basis_note{
+    margin-top: 19.98px;
+}
+#Nokia_note{
+    margin-top: 29px;
+}
