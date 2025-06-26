@@ -1,0 +1,434 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://fonts.cdnfonts.com/css/sf-mono');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* Header*/
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: 133px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #00000029;
+}
+.menu{
+    height: 133px;
+    display: flex;
+}
+.menu a {
+    margin-top: 59px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+    position: relative;
+    text-align: center;
+}
+.menu a:hover {
+    color: #666;
+}
+
+.menu a.active {
+    color: #000;
+}
+.menu a:nth-child(1) {
+    width: 66px;
+    margin-right: 31px;
+    border-bottom: 2px solid #000;
+}
+
+.menu a:nth-child(2) {
+    margin-right: 34px;
+}
+
+.menu a:nth-child(3) {
+    margin-right: 36px;
+}
+.menu a:nth-child(4) {
+    margin-right: 61px;
+}
+
+.icon-menu{
+    width: 24px;
+    height: 14px;
+}
+.img-container{
+    height: 133px;
+}
+#logo{
+    /* NORDIC ROSE */
+
+    width: 395.83px;
+    height: 37.53px;
+    margin-left: 63.58px;
+    margin-top: 52.54px;
+
+}
+.main-image img {
+    max-width: 854px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 992px) {
+    .icon-menu {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .menu {
+        display: none;
+    }
+    #logo {
+        max-width: 217px;
+        width: 100%;
+        height: 20px;
+        margin-left: 0;
+    }
+
+}
+
+/*Main*/
+.main-image{
+    margin-top: 76px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+h2, h3{
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.abstract{
+    /* A few words about this blog platform, Ghost, and how this site was made */
+
+    margin-top: 44px;
+    max-width: 858px;
+    width: 100%;
+    height: 162px;
+
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    /* or 54px */
+    text-align: center;
+
+    color: #000000;
+}
+.header-text{
+    /* Why Ghost (& Figma) instead of Medium, WordPress or other options? */
+    margin: auto;
+    margin-top: 32px;
+    max-width: 592px;
+    width: 100%;
+    height: 68px;
+
+    font-family: 'SF Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 34px */
+    text-align: center;
+
+    color: #000000;
+}
+.line{
+    /* Line 3 */
+    margin: auto;
+    margin-top: 34px;  
+    max-width: 640px;
+    width: 100%;
+    height: 0px;
+
+    border: 2px solid #000000;
+
+}
+@media screen and (max-width: 991px){
+    header{
+        height: 65px;
+    }
+    .main-image{
+        margin-top: 52px;
+    }
+    .abstract{
+        max-width: 335px;
+        width: 100%;
+        height: 172px;
+        margin-top: 32px;
+        font-size: 36px;
+    }
+    .header-text {
+        margin-top: 24px;
+        font-size: 16px;
+    }
+    .line {
+        width: 100%;
+    }
+    
+}
+.content-title{
+    margin: auto;
+    margin-top: 56px;
+    /* All articles */
+
+    max-width: 225px;
+    height: auto;
+
+
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+
+}
+.grid-container-desktop {
+    max-width: 636px;
+    padding-top: 39px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 28px; /* Chỉ điều chỉnh khoảng cách ngang */
+    row-gap: 64px; /* Giữ nguyên khoảng cách dọc, bạn có thể điều chỉnh nếu cần */
+    width: 60%;
+    margin: 0 auto; /* Căn giữa grid-container */
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;  Đảm bảo nội dung con được căn giữa */
+    align-items: center;
+    text-align: center; /* Đảm bảo căn giữa cho toàn bộ grid-item */
+}
+
+
+.grid-item img {
+    max-width: 304px;
+    width: 100%;
+    object-fit: cover;
+    height: 176px;
+}
+.grid-item figcaption{
+    margin-top: 20px;
+    max-width: 262px;
+    width: 100%;
+    height: auto;
+
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    /* or 26px */
+    text-align: center;
+
+    color: #000000;
+
+
+}
+@media screen and (max-width: 991px) {
+    .header-text{
+        width: 335px;
+        height: 81px;
+        align-items: center;
+    }
+    .container {
+        align-items: center;
+    }
+
+    .menu {
+        margin-top: 10px;
+    }
+    .grid-container-desktop{
+        display: none;
+    }
+
+    .grid-container-mobile {
+        margin-top: 29px;
+        grid-template-columns: 1fr;
+        gap: 42px;
+        display: flex;
+        flex-direction: column;
+        /*align-items: center;  Đảm bảo nội dung con được căn giữa */
+        align-items: center;
+    }
+    .img2 img{
+        display: flex;
+        flex-direction: column;
+        /*align-items: center;  Đảm bảo nội dung con được căn giữa */
+        align-items: center;
+        width: 335px;
+        height: 176px;
+        margin-top: 0;
+    }
+    .grid-item img {
+        width: 335px;
+        height: 194px;
+        gap: 42px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .grid-container-mobile{
+        display: none;
+    }
+}
+/* Footer */
+footer {
+    display: block;
+    flex-direction: column;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    text-align: center; /* Căn giữa văn bản con */
+    width: 100%;
+    background-color: #000;
+    margin-top: 113px;
+    height: 464px;
+}
+    .footer-main {
+        padding: 105.12px 0 0 0;
+    }
+
+    .footer-title {
+        font-size: 22px;
+        margin-bottom: 25.41px;
+    }
+
+    .footer-text {
+        font-size: 13px;
+        margin-bottom: 32px;
+    }
+
+    .social-links {
+        flex-direction: row;
+        gap: 16px;
+        margin-bottom: 64px;
+        align-items: center;
+    }
+
+    .copyright {
+        font-size: 12px;
+        max-width: 178px; /* Giới hạn chiều rộng tối đa */
+        width: auto; /* Cho phép co giãn tự nhiên, không chiếm 100% */
+        margin: 0 auto; /* Căn giữa theo chiều ngang, lề dưới 32px */
+        text-align: center; /* Căn giữa văn bản bên trong */
+        display: block; /* Giữ nguyên hiển thị khối */
+        box-sizing: border-box; /* Đảm bảo padding/margin không làm tăng kích thước */
+    }
+
+    .scrolling-text {
+        font-size: 14px;
+        height: 28px;
+    }
+.scrolling-banner {
+    background: #000;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+    padding: 18px 0 0 0 ;
+}
+.scrolling-text {
+    display: inline-flex;
+    width: max-content;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+@keyframes scroll-x {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+.scrolling-text span {
+    margin-right: 20px;
+}
+/* Footer Main */
+.footer-main {
+    background: #000;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;         
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer-title {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 25.58px;
+    color: white;
+}
+
+.footer-text {
+    font-family: 'New York Extra Large';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #ccc;
+    margin-bottom: 32px;
+    max-width: 488px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 64px;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
+    letter-spacing: 1px;
+    max-width: 178px;
+}
+
+.social-link:hover {
+    color: #ccc;
+}
+
+.copyright {
+    font-family: "SF Pro Text";
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.4em;
+    text-align: center;
+}
+@media screen and (max-width: 991px) {
+    footer {
+        margin-top: 82px;
+        height: 456px;
+    }
+}
+
